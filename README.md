@@ -2,9 +2,9 @@
 To allow user capture an image from mobile back camera, then user can touch to drag out a rectangle to select an area for OCR
 
 # Major Package used
-*OCR: Tesseract.js
-*Touch Gesture: react-use-gesture
-*Camera: react-webcam
++OCR: Tesseract.js
++Touch Gesture: react-use-gesture
++Camera: react-webcam
 
 # Issues Identified
 The drag selected area of image does not align to actual image location
