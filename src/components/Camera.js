@@ -10,8 +10,8 @@ const useStyles = createUseStyles({
 		justifyContent:"center",
 		alignItems:"center"
 	},
-	button: {
-		marginTop:5,
+	span: {
+		marginTop:30,
 	}
 })
 
@@ -53,9 +53,9 @@ export default function WebCamWithChildren(props){
 					{React.cloneElement(props.children, { img: img })}
 				</div>
 			)}
-			<span>
-      	<button className={classes.button} onClick={capture}>Capture photo</button>
-				<button className={classes.button} onClick={()=>setImg(null)}>Clear</button>
+			<span className={classes.span}>
+      	<button  onClick={capture}>Capture photo</button>
+				<button  onClick={()=>setImg(null)}>Clear</button>
 			</span>
     </div>
   );
